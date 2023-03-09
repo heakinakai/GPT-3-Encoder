@@ -1,4 +1,4 @@
-const {encode, decode, countTokens, tokenStats} = require('./Encoder.js');
+const {encode, decode, countTokens, tokenStats} = require('./encoder.js');
 const crypto = require('crypto');
 
 // Generate a random string of a given length
